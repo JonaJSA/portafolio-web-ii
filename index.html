@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio académico de Jonathan Ávila, estudiante y desarrollador web en formación."
+    />
+    <meta name="author" content="Jonathan Ávila" />
+    <meta name="theme-color" content="#08111f" />
+    <title>Jonathan Ávila | Portafolio web</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2308111f'/%3E%3Cpath d='M21 18v20c0 6 4 9 10 9 7 0 12-4 12-12V18h-7v17c0 4-2 6-5 6s-4-2-4-5V18z' fill='%235eead4'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" id="inicio">
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">
+          <span class="brand-mark" aria-hidden="true">JA</span>
+          <span>Jonathan Ávila</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Abrir menú</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <button class="theme-toggle" type="button" aria-label="Cambiar a tema claro" title="Cambiar tema">
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
+          </svg>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span aria-hidden="true"></span> Portales Web II · 2026</p>
+          <h1 id="hero-title">Diseño ideas y las convierto en <em>experiencias web.</em></h1>
+          <p class="hero-text">
+            Soy Jonathan Ávila, estudiante y desarrollador web en formación. Creo sitios claros,
+            funcionales y pensados para las personas mientras sigo fortaleciendo mis conocimientos
+            de desarrollo front-end.
+          </p>
+          <p class="role-line">Actualmente explorando: <span id="typed-role">HTML semántico</span><span class="cursor" aria-hidden="true">_</span></p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="https://github.com/JonaJSA" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal" aria-label="Fotografía de perfil de Jonathan Ávila">
+          <div class="portrait-frame">
+            <img
+              src="https://avatars.githubusercontent.com/u/261342677?v=4"
+              alt="Foto de perfil de Jonathan Ávila"
+              width="460"
+              height="460"
+            />
+            <span class="portrait-number" aria-hidden="true">01</span>
+          </div>
+          <div class="status-card">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Aprendiendo y construyendo</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="sobre-mi" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="section-number">01 / SOBRE MÍ</p>
+          <h2 id="about-title">Curiosidad que se convierte en código.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">
+              Mi interés por la web nace de la posibilidad de combinar lógica, creatividad y
+              comunicación en un mismo lugar.
+            </p>
+            <p>
+              Actualmente curso <strong>Portales Web II</strong>, donde continúo desarrollando las
+              bases aprendidas en HTML, CSS y JavaScript. Me enfoco en escribir código ordenado,
+              construir interfaces responsivas y mejorar cada proyecto a partir de la práctica.
+            </p>
+            <p>
+              Este portafolio reúne mi progreso académico y funciona también como un proyecto vivo:
+              crecerá junto con las nuevas herramientas y experiencias que incorpore a mi formación.
+            </p>
+          </div>
+          <dl class="facts reveal">
+            <div><dt>Ubicación</dt><dd>Honduras</dd></div>
+            <div><dt>Enfoque</dt><dd>Desarrollo front-end</dd></div>
+            <div><dt>Formación</dt><dd>Portales Web II</dd></div>
+            <div><dt>Perfil</dt><dd>@JonaJSA</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="habilidades" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-number">02 / HABILIDADES</p>
+            <h2 id="skills-title">Mi caja de herramientas.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <span class="skill-index">01</span>
+              <h3>HTML</h3>
+              <p>Estructura semántica, accesibilidad, formularios y buenas prácticas para contenido web.</p>
+              <div class="skill-level"><span style="--level: 82%"></span></div>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-index">02</span>
+              <h3>CSS</h3>
+              <p>Diseño responsivo, Grid, Flexbox, variables, animaciones y sistemas visuales consistentes.</p>
+              <div class="skill-level"><span style="--level: 76%"></span></div>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-index">03</span>
+              <h3>JavaScript</h3>
+              <p>Interactividad, manipulación del DOM, eventos y almacenamiento de preferencias locales.</p>
+              <div class="skill-level"><span style="--level: 64%"></span></div>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-index">04</span>
+              <h3>Git & GitHub</h3>
+              <p>Control de versiones, repositorios remotos y publicación de sitios con GitHub Pages.</p>
+              <div class="skill-level"><span style="--level: 68%"></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="proyectos" aria-labelledby="projects-title">
+        <div class="section-heading project-heading reveal">
+          <div>
+            <p class="section-number">03 / PROYECTOS</p>
+            <h2 id="projects-title">Trabajo seleccionado.</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrar proyectos">
+            <button class="filter active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+            <button class="filter" type="button" data-filter="html" aria-pressed="false">HTML + CSS</button>
+            <button class="filter" type="button" data-filter="javascript" aria-pressed="false">JavaScript</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" aria-live="polite">
+          <article class="project-card reveal" data-category="html javascript">
+            <div class="project-visual visual-portfolio" aria-hidden="true">
+              <span class="mini-nav"></span>
+              <span class="mini-title">PORTFOLIO</span>
+              <span class="mini-line"></span>
+              <span class="mini-card one"></span>
+              <span class="mini-card two"></span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>2026</span><span>Proyecto destacado</span></div>
+              <h3>Portafolio Web II</h3>
+              <p>
+                Sitio personal responsivo con modo de color, filtros, animaciones y componentes
+                accesibles construidos con tecnologías web fundamentales.
+              </p>
+              <ul class="tags" aria-label="Tecnologías"><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
+              <div class="project-links">
+                <a href="https://jonajsa.github.io/portafolio-web-ii/" target="_blank" rel="noreferrer">Ver sitio ↗</a>
+                <a href="https://github.com/JonaJSA/portafolio-web-ii" target="_blank" rel="noreferrer">Código ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="html">
+            <div class="project-visual visual-first" aria-hidden="true">
+              <span>&lt;html&gt;</span>
+              <strong>PORTALES<br />WEB I</strong>
+              <span>&lt;/html&gt;</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>2026</span><span>Proyecto académico</span></div>
+              <h3>Portales Web I</h3>
+              <p>
+                Repositorio de fundamentos de desarrollo web y punto de partida de mi aprendizaje
+                con estructura y estilos para la web.
+              </p>
+              <ul class="tags" aria-label="Tecnologías"><li>HTML</li><li>CSS</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/JonaJSA/Portales-Web-I" target="_blank" rel="noreferrer">Repositorio ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="empty-projects" hidden>No hay proyectos en esta categoría todavía.</p>
+      </section>
+
+      <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <p class="section-number">04 / CONTACTO</p>
+            <h2 id="contact-title">Construyamos algo que valga la pena.</h2>
+          </div>
+          <div class="contact-copy reveal">
+            <p>
+              Estoy abierto a colaborar en proyectos académicos, compartir ideas y seguir aprendiendo
+              junto a otras personas interesadas en tecnología.
+            </p>
+            <div class="contact-actions">
+              <a class="button button-primary" href="https://github.com/JonaJSA" target="_blank" rel="noreferrer">Contactar por GitHub <span aria-hidden="true">↗</span></a>
+              <button class="copy-user" type="button" data-copy="JonaJSA">Copiar usuario</button>
+            </div>
+            <p class="copy-feedback" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Jonathan Ávila</p>
+        <p>Diseñado y desarrollado en Honduras.</p>
+        <a href="#inicio">Volver arriba ↑</a>
+      </div>
+    </footer>
+
+    <noscript>
+      <p class="noscript">Activa JavaScript para utilizar el cambio de tema, los filtros y las animaciones.</p>
+    </noscript>
+  </body>
+</html>
